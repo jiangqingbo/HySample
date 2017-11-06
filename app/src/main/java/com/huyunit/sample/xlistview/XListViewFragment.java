@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 
 import com.huyunit.sample.R;
-import com.huyunit.sample.adapter.TextListAdapter;
+import com.huyunit.sample.xlistview.adapter.TextListAdapter;
 import com.huyunit.sample.fragment.BaseFragment;
 import com.huyunit.xlistview.XListView;
 

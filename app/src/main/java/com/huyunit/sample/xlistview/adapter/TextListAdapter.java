@@ -1,4 +1,4 @@
-package com.huyunit.sample.adapter;
+package com.huyunit.sample.xlistview.adapter;
 
 import android.content.Context;
 import android.view.View;
