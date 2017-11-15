@@ -11,9 +11,9 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="Compass" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_andfix"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="AndFix Test" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"

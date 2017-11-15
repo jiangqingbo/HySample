@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+import com.huyunit.sample.andfix.TestAndFixFragment;
 import com.huyunit.sample.compass.CompassFragment;
 import com.huyunit.sample.fragment.MainFragment;
 import com.huyunit.sample.xlistview.XListViewFragment;
@@ -99,8 +100,8 @@ public class MainActivity extends AppCompatActivity
             replaceFragment(XListViewFragment.getInstance());
         } else if (id == R.id.nav_compass) {
             replaceFragment(CompassFragment.Companion.getInstance());
-        }  else if (id == R.id.nav_gallery) {
-
+        }  else if (id == R.id.nav_andfix) {
+            replaceFragment(TestAndFixFragment.getInstance());
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
