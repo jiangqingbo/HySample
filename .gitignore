@@ -67,6 +67,16 @@ captures/
 .idea/libraries/support_v4_25_3_1.xml
 .idea/libraries/support_vector_drawable_25_3_1.xml
 .idea/libraries/transition_25_3_1.xml
+.idea/libraries/fastjson_1_1_65_android.xml
+.idea/libraries/kotlin_stdlib_1_1_51.xml
+.idea/libraries/multidex_1_0_1.xml
+.idea/libraries/multidex_1_0_2.xml
+.idea/libraries/multidex_instrumentation_1_0_2.xml
+.idea/libraries/nohttp_1_1_4.xml
+.idea/libraries/okhttp_1_1_4.xml
+.idea/libraries/okhttp_3_8_1.xml
+.idea/libraries/okhttp_urlconnection_3_8_1.xml
+.idea/libraries/okio_1_13_0.xml
 .idea/misc.xml
 .idea/modules.xml
 .idea/runConfigurations.xml
