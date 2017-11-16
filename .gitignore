@@ -41,6 +41,7 @@ captures/
 .idea/gradle.xml
 .idea/libraries/andfix_0_5_0.xml
 .idea/libraries/animated_vector_drawable_25_3_1.xml
+.idea/libraries/annotations_13_0.xml
 .idea/libraries/appcompat_v7_25_3_1.xml
 .idea/libraries/design_25_3_1.xml
 .idea/libraries/espresso_core_2_2_2.xml
