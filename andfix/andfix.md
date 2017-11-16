@@ -1,22 +1,16 @@
 #集成Alibaba开源框架AndFix热修复功能
 
-##按照 [AndFix官网](https://github.com/alibaba/AndFix) 步骤操作
+#### 先介绍下其他平台的框架
 
-#### 介绍下其他平台的框架
+- alibaba还出了一款开源框架：Sophix，(商业版收费)，集成也是非常简单，成功率也很高，[简书文档介绍](http://www.jianshu.com/p/8ea4d653a53e)。
+- 美团点评：Robust，成功率也很高，[热更新文档](https://tech.meituan.com/android_robust.html), [RobustDemo.Github](https://github.com/Meituan-Dianping/Robust)
+- 饿了么： Amigo，[Github](https://github.com/eleme/Amigo), [CSDN解说文档](http://blog.csdn.net/yangxi_pekin/article/details/52523872)
+- QQ空间（QZone）：Nuwa
+- RocooFix：Nuwa改进版
+- Dexposed：不考虑，需要root权限
+- 微信(apk补丁)：Tinker，[Github](https://github.com/Tencent/tinker)
 
-alibaba还出了一款开源框架：Sophix (商业版收费)，集成也是非常简单，成功率也很高，[简书文档介绍](http://www.jianshu.com/p/8ea4d653a53e)。
-
-美团点评：Robust，成功率也很高，[热更新文档](https://tech.meituan.com/android_robust.html), [RobustDemo.Github](https://github.com/Meituan-Dianping/Robust)
-
-饿了么： Amigo, [Github](https://github.com/eleme/Amigo), [CSDN解说文档](http://blog.csdn.net/yangxi_pekin/article/details/52523872)
-
-QQ空间（QZone）：Nuwa
-
-RocooFix：Nuwa改进版
-
-Dexposed：不考虑，需要root权限
-
-微信(apk补丁)：Tinker, [Github](https://github.com/Tencent/tinker)
+##按照 [AndFix官网](https://github.com/alibaba/AndFix) 步骤来执行流程开发
 
 ### 1、集成andfix开源包  
 
