@@ -1,4 +1,5 @@
-#集成Alibaba开源框架AndFix热修复功能
+# 集成Alibaba开源框架AndFix热修复功能
+
 
 #### 先介绍下其他平台的框架
 
@@ -10,7 +11,7 @@
 - Dexposed：不考虑，需要root权限
 - 微信(apk补丁)：Tinker，[Github](https://github.com/Tencent/tinker)
 
-##按照 [AndFix官网](https://github.com/alibaba/AndFix) 步骤来执行流程开发
+## 按照 [AndFix官网](https://github.com/alibaba/AndFix) 步骤来执行流程开发
 
 ### 1、集成andfix开源包  
 
