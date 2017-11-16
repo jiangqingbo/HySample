@@ -87,3 +87,7 @@
 ## 各个平台的对比
 
 <img src="hotfix_platform.png" />
+
+### 11、将AndFix组件化，并代码实现Service
+
+    源码：andfix/AndFixService.java

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -11,7 +12,35 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+
+        multiDexEnabled true
+
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    //为了解决部分第三方库重复打包了META-INF的问题
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    //移除lint检测的error
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
     }
 
     signingConfigs {
@@ -29,6 +58,11 @@ android {
             signingConfig signingConfigs.release
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -36,8 +70,9 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:design:$supportVersion"
+    compile 'com.android.support:multidex:1.0.1'
     testCompile 'junit:junit:4.12'
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -46,4 +81,9 @@ dependencies {
 
     //引入AndFix热修复模块
     compile 'com.alipay.euler:andfix:0.5.0@aar'
+
+    //网络协议框架
+    compile 'com.yanzhenjie.nohttp:nohttp:1.1.4'
+    compile 'com.yanzhenjie.nohttp:okhttp:1.1.4'
+    compile 'com.alibaba:fastjson:1.1.65.android'
 }
