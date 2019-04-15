@@ -28,4 +28,6 @@
     <color name="text_gray_bf">#BFBFBF</color>
 
     <color name="row_highlight">#77CCCCCC</color>
+
+    <color name="half_color">#30000000</color>
 </resources>

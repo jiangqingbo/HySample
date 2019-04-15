@@ -18,14 +18,12 @@ import com.huyunit.sample.App;
  * Email: jqbo84@163.com
  */
 public abstract class BaseFragment extends Fragment {
-    protected App mApp;
     protected View mContentView;
 
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        mApp = App.getInstance();
     }
 
     @Nullable

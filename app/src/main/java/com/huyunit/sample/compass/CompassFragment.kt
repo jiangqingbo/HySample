@@ -40,7 +40,7 @@ class CompassFragment : Fragment(), SensorEventListener {
         super.onActivityCreated(savedInstanceState)
 
         // 传感器管理器
-        val sm = activity.getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        val sm = activity?.getSystemService(Context.SENSOR_SERVICE) as SensorManager
         // 注册传感器(Sensor.TYPE_ORIENTATION(方向传感器);SENSOR_DELAY_FASTEST(0毫秒延迟);
         // SENSOR_DELAY_GAME(20,000毫秒延迟)、SENSOR_DELAY_UI(60,000毫秒延迟))
         sm.registerListener(this, sm.getDefaultSensor(Sensor.TYPE_ORIENTATION), SensorManager.SENSOR_DELAY_FASTEST)

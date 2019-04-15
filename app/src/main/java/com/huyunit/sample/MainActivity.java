@@ -15,11 +15,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.huyunit.sample.andfix.TestAndFixFragment;
 import com.huyunit.sample.compass.CompassFragment;
 import com.huyunit.sample.fragment.MainFragment;
+import com.huyunit.sample.goldanim.GoldDemoFragment;
+import com.huyunit.sample.tinker.TestTinkerFragment;
+import com.huyunit.sample.util.ToastUtil;
 import com.huyunit.sample.xlistview.XListViewFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -31,36 +35,30 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        headerView = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.header_view);
+        headerView = navigationView.getHeaderView(0).findViewById(R.id.header_view);
         headerView.setOnClickListener(this);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(this);
 
         replaceFragment(MainFragment.newInstance());
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -102,10 +100,10 @@ public class MainActivity extends AppCompatActivity
             replaceFragment(CompassFragment.Companion.getInstance());
         }  else if (id == R.id.nav_andfix) {
             replaceFragment(TestAndFixFragment.getInstance());
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.nav_tinker) {
+            replaceFragment(TestTinkerFragment.getInstance());
+        } else if (id == R.id.nav_gold) {
+            replaceFragment(GoldDemoFragment.getInstance());
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
@@ -122,6 +120,10 @@ public class MainActivity extends AppCompatActivity
         switch (v.getId()) {
             case R.id.header_view:
                 replaceFragment(MainFragment.newInstance());
+                break;
+            case R.id.fab:
+                Snackbar.make(v, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
                 break;
         }
 

@@ -35,6 +35,7 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+.idea/
 
 # Keystore files
 *.jks
@@ -42,7 +43,9 @@ captures/
 .idea/libraries/andfix_0_5_0.xml
 .idea/libraries/animated_vector_drawable_25_3_1.xml
 .idea/libraries/annotations_13_0.xml
+.idea/libraries/aosp_dexutils_1_9_1.xml
 .idea/libraries/appcompat_v7_25_3_1.xml
+.idea/libraries/bsdiff_util_1_9_1.xml
 .idea/libraries/design_25_3_1.xml
 .idea/libraries/espresso_core_2_2_2.xml
 .idea/libraries/espresso_idling_resource_2_2_2.xml
@@ -56,6 +59,7 @@ captures/
 .idea/libraries/javax_inject_1.xml
 .idea/libraries/jsr305_2_0_1.xml
 .idea/libraries/junit_4_12.xml
+.idea/libraries/kotlin_stdlib_1_1_51.xml
 .idea/libraries/recyclerview_v7_25_3_1.xml
 .idea/libraries/rules_0_5.xml
 .idea/libraries/runner_0_5.xml
@@ -69,7 +73,6 @@ captures/
 .idea/libraries/support_vector_drawable_25_3_1.xml
 .idea/libraries/transition_25_3_1.xml
 .idea/libraries/fastjson_1_1_65_android.xml
-.idea/libraries/kotlin_stdlib_1_1_51.xml
 .idea/libraries/multidex_1_0_1.xml
 .idea/libraries/multidex_1_0_2.xml
 .idea/libraries/multidex_instrumentation_1_0_2.xml
@@ -78,6 +81,11 @@ captures/
 .idea/libraries/okhttp_3_8_1.xml
 .idea/libraries/okhttp_urlconnection_3_8_1.xml
 .idea/libraries/okio_1_13_0.xml
+.idea/libraries/tinker_android_anno_1_9_1.xml
+.idea/libraries/tinker_android_lib_1_9_1.xml
+.idea/libraries/tinker_android_loader_1_9_1.xml
+.idea/libraries/tinker_commons_1_9_1.xml
+.idea/libraries/tinker_ziputils_1_9_1.xml
 .idea/misc.xml
 .idea/modules.xml
 .idea/runConfigurations.xml

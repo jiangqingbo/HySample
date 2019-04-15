@@ -15,13 +15,13 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="AndFix Test" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_tinker"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Tinker Test" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_gold"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gold Animation" />
     </group>
 
     <item android:title="Communicate">

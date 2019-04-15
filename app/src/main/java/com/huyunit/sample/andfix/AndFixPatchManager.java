@@ -40,9 +40,9 @@ public class AndFixPatchManager {
 
     public void addPatch(String path){
         try {
-            Log.e("andfix", patchManager.toString());
-            Log.e("andfix", "addPatch()=" + path);
             if(patchManager != null) {
+                Log.e("andfix", patchManager.toString());
+                Log.e("andfix", "addPatch()=" + path);
                 patchManager.addPatch(path);
                 Log.e("andfix", "addPatch()=" + path);
             }
