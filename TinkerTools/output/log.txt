@@ -1,0 +1,91 @@
+-----------------------Tinker patch begin-----------------------
+configuration: 
+oldApk:/Users/bobo/huyunit/github/HySample/TinkerTools/old.apk
+newApk:/Users/bobo/huyunit/github/HySample/TinkerTools/new.apk
+outputFolder:/Users/bobo/huyunit/github/HySample/TinkerTools/output
+isIgnoreWarning:false
+7-ZipPath:7za
+useSignAPk:true
+package meta fields: 
+filed name:patchMessage, filed value:classes.dex
+filed name:platform, filed value:all
+dex configs: 
+dexMode: jar
+dexPattern:classes.*\.dex
+dexPattern:assets/secondary-dex-.\.jar
+dex loader:com.huyunit.sample.tinker.MyTinkerApplication
+dex loader:com.tencent.tinker.loader.*
+lib configs: 
+libPattern:lib/armeabi/.*\.so
+resource configs: 
+resPattern:res/.*
+resPattern:assets/.*
+resPattern:resources\.arsc
+resPattern:AndroidManifest\.xml
+resIgnore change:assets/sample_meta\.txt
+largeModSize:100kb
+useApplyResource:false
+
+Analyze old and new apk files:
+old apk: old.apk, size=2879258, md5=2e9e1d5a4097b3a29fc3619bd24115bd
+new apk: new.apk, size=2879454, md5=52a46ee479a0280e701a0a02e096014f
+UnZipping apk to /Users/bobo/huyunit/github/HySample/TinkerTools/output/old
+UnZipping apk to /Users/bobo/huyunit/github/HySample/TinkerTools/output/new
+Found large modify resource: resources.arsc size:276700
+Found modify resource: res/layout/abc_activity_chooser_view_list_item.xml
+Found modify resource: res/layout/abc_dialog_title_material.xml
+Found modify resource: res/layout/design_bottom_sheet_dialog.xml
+Found modify resource: res/layout/f_test_tinker.xml
+Found modify resource: res/layout/xlistview_header.xml
+Found modify resource: res/layout/abc_list_menu_item_layout.xml
+Found modify resource: res/layout/notification_template_part_time.xml
+Found modify resource: res/layout/xlistview_footer.xml
+Found modify resource: res/layout/nav_header_main.xml
+Found modify resource: res/layout/abc_popup_menu_item_layout.xml
+Found modify resource: res/layout/a_text_list_item.xml
+Found modify resource: res/layout/abc_alert_dialog_material.xml
+Found modify resource: res/layout/f_main.xml
+Found modify resource: res/layout/notification_template_lines_media.xml
+Found modify resource: res/layout/f_test_andfix.xml
+Found modify resource: res/layout/f_xlistview.xml
+Found modify resource: res/layout/notification_template_big_media_narrow_custom.xml
+Found modify resource: res/layout/notification_template_media_custom.xml
+Found modify resource: res/layout/design_text_input_password_icon.xml
+Found modify resource: res/layout/abc_alert_dialog_title_material.xml
+Found modify resource: res/layout/notification_template_big_media_custom.xml
+Found modify resource: res/layout/app_bar_main.xml
+Found modify resource: res/drawable-v21/design_password_eye.xml
+Found modify resource: res/layout-v21/notification_template_custom_big.xml
+Found modify resource: res/layout-v17/abc_dialog_title_material.xml
+Found modify resource: res/layout-v17/abc_popup_menu_item_layout.xml
+Found modify resource: res/layout-v17/notification_template_lines_media.xml
+Found modify resource: res/layout-v17/notification_template_big_media_narrow_custom.xml
+Found modify resource: res/layout-v17/notification_template_media_custom.xml
+Found modify resource: res/layout-v17/notification_template_custom_big.xml
+Found modify resource: res/layout-v17/abc_alert_dialog_title_material.xml
+Found modify resource: res/layout-v17/notification_template_big_media_custom.xml
+Found modify resource: res/layout-v16/design_bottom_sheet_dialog.xml
+Found modify resource: res/layout-v16/notification_template_custom_big.xml
+Check for loader classes in dex: classes.dex
+
+Gen classes.dex patch file:/Users/bobo/huyunit/github/HySample/TinkerTools/output/tinker_result/classes.dex, size:12194, md5:4b65d05566a2b5c3f90a3ef91d024bcf
+Verifying if patched new dex is logically the same as original new dex: new/classes.dex ...
+
+Gen classes.dex for dalvik full dex file:/Users/bobo/huyunit/github/HySample/TinkerTools/output/tempPatchedDexes/classes.dex, size:5467340, md5:b1e8adc250696e5a6ba9e27b198c47da
+DexDecoder:write meta file data: classes.dex,,b1e8adc250696e5a6ba9e27b198c47da,b1e8adc250696e5a6ba9e27b198c47da,4b65d05566a2b5c3f90a3ef91d024bcf,3640970174,jar
+
+Add test install result dex: /Users/bobo/huyunit/github/HySample/TinkerTools/output/tinker_result/test.dex, size:584
+DexDecoder:write test dex meta file data: test.dex,,56900442eb5b7e1de45449d0685e6e00,56900442eb5b7e1de45449d0685e6e00,0,0,jar
+Add Test resource file: assets/only_use_to_test_tinker_resource.txt
+Final normal zip resource: resources_out.zip, size=611078, md5=632ad920a838bc1cb7a216d564ed7240
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Generate unsigned apk: patch_unsigned.apk
+Signing apk: patch_signed.apk
+Signing key algorithm is SHA1withRSA
+Try use 7za to compress the patch file: patch_signed_7zip.apk, will cost much more time
+Current 7za path:7za
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Result: final signed patch result: /Users/bobo/huyunit/github/HySample/TinkerTools/output/patch_signed.apk, size=38392
+Tinker patch done, total time cost: 5.045000s
+Tinker patch done, you can go to file to find the output /Users/bobo/huyunit/github/HySample/TinkerTools/output
+-----------------------Tinker patch end-------------------------

@@ -1,0 +1,37 @@
+large modify resource: resources.arsc, oldSize=276660, newSize=276700
+modify resource: res/layout/abc_activity_chooser_view_list_item.xml, oldSize=1244, newSize=1244
+modify resource: res/layout/abc_dialog_title_material.xml, oldSize=964, newSize=964
+modify resource: res/layout/design_bottom_sheet_dialog.xml, oldSize=1004, newSize=1004
+modify resource: res/layout/f_test_tinker.xml, oldSize=1160, newSize=1160
+modify resource: res/layout/xlistview_header.xml, oldSize=2024, newSize=2024
+modify resource: res/layout/abc_list_menu_item_layout.xml, oldSize=1336, newSize=1336
+modify resource: res/layout/notification_template_part_time.xml, oldSize=380, newSize=380
+modify resource: res/layout/xlistview_footer.xml, oldSize=912, newSize=912
+modify resource: res/layout/nav_header_main.xml, oldSize=1240, newSize=1240
+modify resource: res/layout/abc_popup_menu_item_layout.xml, oldSize=1580, newSize=1580
+modify resource: res/layout/a_text_list_item.xml, oldSize=1528, newSize=1528
+modify resource: res/layout/abc_alert_dialog_material.xml, oldSize=2428, newSize=2428
+modify resource: res/layout/f_main.xml, oldSize=708, newSize=708
+modify resource: res/layout/notification_template_lines_media.xml, oldSize=2596, newSize=2596
+modify resource: res/layout/f_test_andfix.xml, oldSize=1072, newSize=1072
+modify resource: res/layout/f_xlistview.xml, oldSize=888, newSize=888
+modify resource: res/layout/notification_template_big_media_narrow_custom.xml, oldSize=2808, newSize=2808
+modify resource: res/layout/notification_template_media_custom.xml, oldSize=2464, newSize=2464
+modify resource: res/layout/design_text_input_password_icon.xml, oldSize=496, newSize=496
+modify resource: res/layout/abc_alert_dialog_title_material.xml, oldSize=1376, newSize=1376
+modify resource: res/layout/notification_template_big_media_custom.xml, oldSize=2700, newSize=2700
+modify resource: res/layout/app_bar_main.xml, oldSize=1368, newSize=1596
+modify resource: res/drawable-v21/design_password_eye.xml, oldSize=756, newSize=756
+modify resource: res/layout-v21/notification_template_custom_big.xml, oldSize=2396, newSize=2396
+modify resource: res/layout-v17/abc_dialog_title_material.xml, oldSize=1008, newSize=1008
+modify resource: res/layout-v17/abc_popup_menu_item_layout.xml, oldSize=1628, newSize=1628
+modify resource: res/layout-v17/notification_template_lines_media.xml, oldSize=2812, newSize=2812
+modify resource: res/layout-v17/notification_template_big_media_narrow_custom.xml, oldSize=3152, newSize=3152
+modify resource: res/layout-v17/notification_template_media_custom.xml, oldSize=2696, newSize=2696
+modify resource: res/layout-v17/notification_template_custom_big.xml, oldSize=3148, newSize=3148
+modify resource: res/layout-v17/abc_alert_dialog_title_material.xml, oldSize=1464, newSize=1464
+modify resource: res/layout-v17/notification_template_big_media_custom.xml, oldSize=2980, newSize=2980
+modify resource: res/layout-v16/design_bottom_sheet_dialog.xml, oldSize=1060, newSize=1060
+modify resource: res/layout-v16/notification_template_custom_big.xml, oldSize=2952, newSize=2952
+add test resource: assets/only_use_to_test_tinker_resource.txt, oldSize=0, newSize=24
+Final normal zip resource: resources_out.zip, size=611078, md5=632ad920a838bc1cb7a216d564ed7240

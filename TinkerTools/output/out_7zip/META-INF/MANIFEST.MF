@@ -1,0 +1,126 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_144 (Oracle Corporation)
+
+Name: res/layout/abc_alert_dialog_material.xml
+SHA1-Digest: FPuuUSlZb8MtBxaLMfZio3KF9I8=
+
+Name: res/layout/design_text_input_password_icon.xml
+SHA1-Digest: T/H7GJDR+5pKiMUHgVFA//pis4o=
+
+Name: res/layout/nav_header_main.xml
+SHA1-Digest: XBE2xtoNv/5IuJejlX8TRyXHWLY=
+
+Name: res/layout-v17/notification_template_media_custom.xml
+SHA1-Digest: D/6UB8b+ROlo6OlhEvSjyNclzAo=
+
+Name: assets/res_meta.txt
+SHA1-Digest: zfAR2GYiBHX0lptfGFCWM2k8pAs=
+
+Name: res/layout-v17/abc_popup_menu_item_layout.xml
+SHA1-Digest: Eby96ElucYdtnys1m1sFRaIjN5c=
+
+Name: res/layout/abc_list_menu_item_layout.xml
+SHA1-Digest: qCWA8S9oZHln5ChuPQLTIuRHBUo=
+
+Name: res/layout/notification_template_big_media_custom.xml
+SHA1-Digest: NpzVidqItA1VF8CpZEgwAuJh7TU=
+
+Name: res/layout-v17/abc_alert_dialog_title_material.xml
+SHA1-Digest: qiGpf73AtPzmKQSWQTzFYDqmOQ4=
+
+Name: res/layout/xlistview_footer.xml
+SHA1-Digest: 35DmPFKwLtzpV5eOOUePUUQI7R0=
+
+Name: res/layout-v17/notification_template_big_media_narrow_custom.xml
+SHA1-Digest: OJngGoTqrrWwabQYSxqLYtX5294=
+
+Name: res/layout/f_test_tinker.xml
+SHA1-Digest: JOM4WhclsNW51V+6x0OcOG7pROg=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA1-Digest: BUcU4GtslOi+WYUq8hJos79yElA=
+
+Name: res/layout-v16/design_bottom_sheet_dialog.xml
+SHA1-Digest: vLwZXTyzZh8Dql8JUqO8Ojhbck4=
+
+Name: res/layout/f_test_andfix.xml
+SHA1-Digest: ZF82FUqyOz9OIfu1vA78aOoLbpc=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 0hDOMk1uWmkEPB3FP6r29AqdwR4=
+
+Name: res/layout/f_xlistview.xml
+SHA1-Digest: QZqCsE9+Prq47mSDkcxCvBMPpig=
+
+Name: res/layout-v17/notification_template_lines_media.xml
+SHA1-Digest: 857k8FRPDljOb6eA4fDPJ6/He8w=
+
+Name: res/layout-v17/abc_dialog_title_material.xml
+SHA1-Digest: qEAAdSrZ5APzYh8pKRTAB4vVlXA=
+
+Name: res/layout-v17/notification_template_custom_big.xml
+SHA1-Digest: vsAzklMsfCMO3a5EBmZ0wOc47Cc=
+
+Name: res/layout/xlistview_header.xml
+SHA1-Digest: sdH28MGm91y1tieBylGMbrCD2ic=
+
+Name: res/layout/abc_popup_menu_item_layout.xml
+SHA1-Digest: CKAq0pjfINs8/h3yTppW7IsYzBI=
+
+Name: res/layout/app_bar_main.xml
+SHA1-Digest: L69SeIwLFbTK2P6RN1UFnCbCvBQ=
+
+Name: res/layout-v16/notification_template_custom_big.xml
+SHA1-Digest: JSicdFPSYlFWYKUsxMfH1eAaUsM=
+
+Name: assets/dex_meta.txt
+SHA1-Digest: q9u9aYiGAEoubJhKr1x6IozeVR8=
+
+Name: test.dex
+SHA1-Digest: JQ6I/qo62WRfO8A5LZy1vaQmpYE=
+
+Name: res/layout/abc_activity_chooser_view_list_item.xml
+SHA1-Digest: MGZgFU15+ojX6baqFnG3vjwENK0=
+
+Name: res/layout/notification_template_big_media_narrow_custom.xml
+SHA1-Digest: 8/ZeiBsqP9VtPrHkiPlx29hN7Gk=
+
+Name: res/layout/design_bottom_sheet_dialog.xml
+SHA1-Digest: 0E7tdRNSqASy9iDw5lTr6BopksQ=
+
+Name: res/layout/abc_dialog_title_material.xml
+SHA1-Digest: CBnKguHD2Dh4kf95tU1uZusXq/w=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: 8BoXMaMq4hzOemYrYOUthoSKS60=
+
+Name: res/layout/abc_alert_dialog_title_material.xml
+SHA1-Digest: NWXr5vm7VrjNiMRcQoClcztuxt0=
+
+Name: assets/package_meta.txt
+SHA1-Digest: XHmcVxQ20VH8LADF4SC/6FNZKus=
+
+Name: res/drawable-v21/design_password_eye.xml
+SHA1-Digest: 9+K3Zooyzy4KzTcfILJTy+z+SYY=
+
+Name: res/layout-v17/notification_template_big_media_custom.xml
+SHA1-Digest: buZILxpsB20pTLVnw50VmIzO4tk=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA1-Digest: pXrsF67yn7Xk+Gv45LS+S0pz+/U=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA1-Digest: ebEf1C2ddVBh97tgex0O22Ygo6Y=
+
+Name: resources.arsc
+SHA1-Digest: jPskCIg240XxOo1233Oth7OyY2s=
+
+Name: res/layout/f_main.xml
+SHA1-Digest: OPv8Xbs/YGGhrLvDAeATCJmxV8Q=
+
+Name: classes.dex
+SHA1-Digest: 4Vs9JpFbAI7dbb5w9QWU8xq0dNw=
+
+Name: res/layout/a_text_list_item.xml
+SHA1-Digest: sKy8JNEvBjdrd2CZksh3WalWfMU=
+
